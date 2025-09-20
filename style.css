@@ -1,0 +1,253 @@
+
+        /* ===============================================
+           RESET BÁSICO
+           =============================================== */
+        
+        /* Remove margin e padding padrão de todos os elementos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Inclui padding e border no tamanho total */
+        }
+        
+        /* Configuração básica do body */
+        body {
+            font-family: system-ui, sans-serif; /* Fonte do sistema */
+            background: #1a1a2e; /* Fundo escuro azulado */
+            color: #ffffff; /* Texto branco */
+            padding: 50px; /* Espaçamento interno */
+        }
+        
+        /* Remove estilos padrão de listas */
+        ul {
+            list-style: none; /* Remove os pontinhos das listas */
+        }
+        
+        /* Remove decoração padrão de links */
+        a {
+            text-decoration: none; /* Remove sublinhado */
+            color: inherit; /* Herda a cor do elemento pai */
+        }
+        
+        /* ===============================================
+           CONTAINER DO MENU
+           =============================================== */
+        
+        .menu-container {
+            width: 300px; /* Largura fixa do menu */
+            background: #16213e; /* Fundo azul escuro */
+            border-radius: 12px; /* Bordas arredondadas */
+            padding: 10px; /* Espaçamento interno */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Sombra suave */
+        }
+        
+        /* ===============================================
+           ITEM PRINCIPAL DO MENU
+           =============================================== */
+        
+        .menu-item {
+            position: relative; /* Permite posicionar elementos filhos de forma absoluta */
+            width: 100%; /* Ocupa toda a largura disponível */
+        }
+        
+        .menu-link {
+            display: flex; /* Layout flexível para organizar ícone, texto e seta */
+            align-items: center; /* Centraliza verticalmente os itens */
+            gap: 12px; /* Espaço entre ícone, texto e seta */
+            padding: 12px 16px; /* Espaçamento interno (vertical horizontal) */
+            background: #0f1729; /* Fundo azul muito escuro */
+            border-radius: 8px; /* Bordas arredondadas */
+            color: #8892b0; /* Cor cinza azulada para o texto */
+            cursor: pointer; /* Cursor de mão ao passar por cima */
+            transition: all 0.3s ease; /* Animação suave para todas as propriedades */
+            border: 1px solid #233554; /* Borda sutil */
+        }
+        
+        /* Ícone dentro do link principal */
+        .menu-link i {
+            font-size: 18px; /* Tamanho do ícone */
+            color: #64ffda; /* Cor ciano para o ícone */
+            transition: transform 0.3s ease; /* Animação para transformações */
+        }
+        
+        /* Texto do menu */
+        .menu-text {
+            flex: 1; /* Ocupa todo o espaço disponível restante */
+            font-weight: 500; /* Peso da fonte médio */
+            font-size: 14px; /* Tamanho da fonte */
+        }
+        
+        /* Seta indicadora do submenu */
+        .menu-arrow {
+            font-size: 12px !important; /* Tamanho menor para a seta */
+            color: #8892b0 !important; /* Cor mais suave */
+            transition: transform 0.3s ease; /* Animação de rotação */
+        }
+        
+        /* ===============================================
+           ESTADOS DE INTERAÇÃO DO MENU PRINCIPAL
+           =============================================== */
+        
+        /* Estado hover (quando o mouse passa por cima) */
+        .menu-item:hover .menu-link {
+            background: #1e2a4a; /* Fundo um pouco mais claro */
+            color: #ffffff; /* Texto fica branco */
+            transform: translateY(-2px); /* Move 2px para cima */
+            box-shadow: 0 4px 12px rgba(100, 255, 218, 0.2); /* Sombra ciano suave */
+        }
+        
+        /* Ícone no hover */
+        .menu-item:hover .menu-link i {
+            transform: scale(1.1); /* Aumenta 10% o tamanho */
+            color: #64ffda; /* Mantém a cor ciano */
+        }
+        
+        /* Seta rotaciona quando hover no menu principal */
+        .menu-item:hover .menu-arrow {
+            transform: rotate(180deg); /* Rotaciona 180 graus */
+            color: #64ffda !important; /* Fica ciano */
+        }
+        
+        /* ===============================================
+           SUBMENU
+           =============================================== */
+        
+        .submenu {
+            position: absolute; /* Posicionamento absoluto em relação ao menu-item */
+            top: 100%; /* Posiciona logo abaixo do item principal */
+            left: 0; /* Alinha à esquerda */
+            width: 100%; /* Mesma largura do item principal */
+            background: #0f1729; /* Mesmo fundo do menu principal */
+            border-radius: 8px; /* Bordas arredondadas */
+            margin-top: 8px; /* Espaço entre menu principal e submenu */
+            border: 1px solid #233554; /* Borda sutil */
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* Sombra mais forte */
+            
+            /* Estados iniciais (submenu escondido) */
+            opacity: 0; /* Totalmente transparente */
+            visibility: hidden; /* Não visível (não clicável) */
+            transform: translateY(-10px); /* Posicionado 10px acima */
+            
+            /* Configuração da animação */
+            transition: 
+                opacity 0.3s ease, /* Animação da transparência */
+                visibility 0.3s ease, /* Animação da visibilidade */
+                transform 0.3s ease; /* Animação do movimento */
+                
+            /* Controla a ordem de empilhamento */
+            z-index: 1000; /* Fica acima de outros elementos */
+        }
+        
+        /* ===============================================
+           MOSTRANDO O SUBMENU
+           =============================================== */
+        
+        /* Quando hover no item principal OU no próprio submenu */
+        .menu-item:hover .submenu,
+        .submenu:hover {
+            opacity: 1; /* Fica visível */
+            visibility: visible; /* Fica clicável */
+            transform: translateY(0); /* Volta para posição original */
+        }
+        
+        /* ===============================================
+           ITENS DO SUBMENU
+           =============================================== */
+        
+        .submenu-item {
+            width: 100%; /* Ocupa toda a largura */
+        }
+        
+        .submenu-link {
+            display: flex; /* Layout flexível */
+            align-items: center; /* Centraliza verticalmente */
+            gap: 12px; /* Espaço entre ícone e texto */
+            padding: 10px 16px; /* Espaçamento interno menor que o menu principal */
+            color: #8892b0; /* Cor inicial mais suave */
+            cursor: pointer; /* Cursor de mão */
+            transition: all 0.3s ease; /* Animação suave */
+            border-radius: 6px; /* Bordas menos arredondadas */
+            margin: 4px; /* Margem pequena ao redor */
+        }
+        
+        /* Ícone do submenu */
+        .submenu-link i {
+            font-size: 16px; /* Ícone menor que o menu principal */
+            color: #64ffda; /* Cor ciano */
+            opacity: 0.7; /* Transparência inicial */
+            transition: all 0.3s ease; /* Animação suave */
+        }
+        
+        /* Texto do submenu */
+        .submenu-text {
+            font-weight: 400; /* Peso normal */
+            font-size: 13px; /* Fonte menor que o menu principal */
+        }
+        
+        /* ===============================================
+           ESTADOS DE INTERAÇÃO DO SUBMENU
+           =============================================== */
+        
+        /* Hover no item do submenu */
+        .submenu-item:hover .submenu-link {
+            background: #1e2a4a; /* Fundo mais claro */
+            color: #ffffff; /* Texto branco */
+            transform: translateX(4px); /* Move 4px para a direita */
+        }
+        
+        /* Ícone no hover do submenu */
+        .submenu-item:hover .submenu-link i {
+            opacity: 1; /* Remove transparência */
+            transform: scale(1.1); /* Aumenta tamanho */
+            color: #64ffda; /* Mantém cor ciano */
+        }
+        
+        /* ===============================================
+           EFEITO VISUAL ADICIONAL
+           =============================================== */
+        
+        /* Pequena seta conectora entre menu e submenu */
+        .submenu::before {
+            content: ''; /* Cria elemento vazio */
+            position: absolute; /* Posicionamento absoluto */
+            top: -4px; /* Posiciona acima do submenu */
+            left: 20px; /* Posição horizontal */
+            width: 8px; /* Largura */
+            height: 8px; /* Altura */
+            background: #0f1729; /* Mesma cor do submenu */
+            border: 1px solid #233554; /* Mesma borda */
+            border-bottom: none; /* Remove borda inferior */
+            border-right: none; /* Remove borda direita */
+            transform: rotate(45deg); /* Rotaciona para formar seta */
+        }
+        
+        /* ===============================================
+           DEMONSTRAÇÃO E EXEMPLO
+           =============================================== */
+        
+        .demo-info {
+            margin-top: 40px; /* Espaço acima */
+            padding: 20px; /* Espaçamento interno */
+            background: #16213e; /* Fundo azul escuro */
+            border-radius: 8px; /* Bordas arredondadas */
+            border-left: 4px solid #64ffda; /* Borda esquerda ciano */
+        }
+        
+        .demo-info h3 {
+            color: #64ffda; /* Título ciano */
+            margin-bottom: 15px; /* Espaço abaixo */
+        }
+        
+        .demo-info p {
+            color: #8892b0; /* Texto cinza */
+            line-height: 1.6; /* Altura da linha */
+            margin-bottom: 10px; /* Espaço entre parágrafos */
+        }
+        
+        .demo-info code {
+            background: #0f1729; /* Fundo escuro */
+            color: #64ffda; /* Texto ciano */
+            padding: 2px 6px; /* Espaçamento interno */
+            border-radius: 4px; /* Bordas arredondadas */
+            font-family: monospace; /* Fonte monoespaçada */
+        }

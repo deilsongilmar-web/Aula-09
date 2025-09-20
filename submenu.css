@@ -1,0 +1,22 @@
+/* ===============================================
+   CONCEITOS-CHAVE DO SUBMENU:
+   
+   📍 Posicionamento Absoluto:
+   - position: absolute → Remove do fluxo normal
+   - top: 100% → Posiciona abaixo do elemento pai
+   - left: 0 → Alinha com a borda esquerda do pai
+   
+   👁️ Controle de Visibilidade:
+   - opacity: 0/1 → Controla transparência
+   - visibility: hidden/visible → Controla interação
+   - transform → Controla posição e movimento
+   
+   🎭 Estados e Transições:
+   - Estado inicial: escondido e acima da posição
+   - Estado hover: visível na posição correta
+   - Transition suaviza a mudança entre estados
+   
+   🔄 Persistência:
+   - .submenu:hover mantém submenu visível
+   - Permite navegar dentro do submenu sem fechar
+   =============================================== */

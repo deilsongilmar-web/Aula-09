@@ -1,0 +1,22 @@
+/* ===============================================
+   CONCEITOS IMPORTANTES:
+   
+   🎯 Flexbox Layout:
+   - display: flex → Organiza itens em linha
+   - align-items: center → Centraliza verticalmente
+   - gap: 12px → Espaço automático entre elementos
+   - flex: 1 → Elemento cresce para ocupar espaço
+   
+   🎨 Transitions:
+   - all 0.3s ease → Anima TODAS as propriedades em 0.3s
+   - transform 0.3s ease → Anima só transformações
+   
+   ⚡ Transform:
+   - translateY(-2px) → Move verticalmente
+   - scale(1.1) → Aumenta tamanho proporcionalmente
+   - rotate(180deg) → Rotaciona elemento
+   
+   🎪 Estados CSS:
+   - :hover → Quando mouse está sobre elemento
+   - transition → Suaviza mudanças entre estados
+   =============================================== */
