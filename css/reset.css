@@ -1,0 +1,32 @@
+/* ===============================================
+   MÓDULO: RESET E CONFIGURAÇÕES GLOBAIS
+   ===============================================
+   Responsabilidade: Reset básico e configurações globais
+   Linhas: 30
+   =============================================== */
+
+/* Remove margin e padding padrão de todos os elementos */
+* {
+    margin: 0;                    /* Remove margens do navegador */
+    padding: 0;                   /* Remove espaçamentos do navegador */
+    box-sizing: border-box;       /* Inclui padding e border no tamanho total */
+}
+
+/* Configuração básica do body */
+body {
+    font-family: system-ui, sans-serif;  /* Fonte do sistema para melhor performance */
+    background: #1a1a2e;                 /* Fundo escuro azulado */
+    color: #ffffff;                       /* Texto branco padrão */
+    padding: 50px;                        /* Espaçamento interno da página */
+}
+
+/* Remove estilos padrão de listas */
+ul {
+    list-style: none;            /* Remove os pontinhos/números das listas */
+}
+
+/* Remove decoração padrão de links */
+a {
+    text-decoration: none;       /* Remove sublinhado dos links */
+    color: inherit;              /* Herda a cor do elemento pai */
+}

@@ -1,0 +1,35 @@
+/* ===============================================
+   MÓDULO: LAYOUT E CONTAINER
+   ===============================================
+   Responsabilidade: Container do menu e estrutura base
+   Linhas: 35
+   =============================================== */
+
+/* Container principal do menu */
+.menu-container {
+    width: 300px;                        /* Largura fixa do menu */
+    background: #16213e;                 /* Fundo azul escuro */
+    border-radius: 12px;                 /* Bordas arredondadas suaves */
+    padding: 10px;                       /* Espaçamento interno */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);  /* Sombra suave para profundidade */
+}
+
+/* Item principal do menu - Base estrutural */
+.menu-item {
+    position: relative;                  /* ← ESSENCIAL: Referência para posicionamento do submenu */
+    width: 100%;                         /* Ocupa toda a largura disponível */
+}
+
+/* ===============================================
+   NOTAS IMPORTANTES:
+   
+   position: relative no .menu-item é FUNDAMENTAL!
+   
+   ✅ Cria contexto de posicionamento para filhos absolutos
+   ✅ Permite que o submenu se posicione em relação a este elemento
+   ✅ Sem ele, o submenu ficaria posicionado em relação ao body
+   
+   Estrutura de posicionamento:
+   menu-item (relative) → referência
+   └── submenu (absolute) → posiciona em relação ao menu-item
+   =============================================== */

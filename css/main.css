@@ -1,0 +1,32 @@
+/* ===============================================
+   CSS PRINCIPAL - SISTEMA MODULAR DE MENU
+   ===============================================
+   
+   Este arquivo importa todos os módulos CSS organizados
+   por responsabilidade para facilitar o estudo e manutenção.
+   
+   📁 Estrutura dos Módulos:
+   ├── reset.css     → Reset básico e configurações globais
+   ├── layout.css    → Container e estrutura do menu  
+   ├── menu.css      → Estilos do menu principal
+   └──  submenu.css   → Sistema de submenu e animações
+   
+   Total: 240 linhas organizadas em 6 arquivos
+   =============================================== */
+
+/* Importação dos módulos CSS na ordem correta */
+@import url('reset.css');    /* 30 linhas - Base e reset */
+@import url('layout.css');   /* 35 linhas - Layout e container */
+@import url('menu.css');     /* 85 linhas - Menu principal */
+@import url('submenu.css');  /* 65 linhas - Sistema de submenu */
+
+/* ===============================================
+   VANTAGENS DA MODULARIZAÇÃO:
+   
+   ✅ Organização: Cada arquivo tem uma responsabilidade
+   ✅ Manutenção: Fácil encontrar e modificar estilos
+   ✅ Estudo: Compreender cada parte separadamente
+   ✅ Reutilização: Módulos podem ser usados em outros projetos
+   ✅ Performance: Navegador pode cachear módulos individualmente
+   ✅ Colaboração: Diferentes pessoas podem trabalhar em módulos diferentes
+   =============================================== */

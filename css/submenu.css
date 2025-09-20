@@ -1,0 +1,111 @@
+/* ===============================================
+   CONCEITOS-CHAVE DO SUBMENU:
+   
+   📍 Posicionamento Absoluto:
+   - position: absolute → Remove do fluxo normal
+   - top: 100% → Posiciona abaixo do elemento pai
+   - left: 0 → Alinha com a borda esquerda do pai
+   
+   👁️ Controle de Visibilidade:
+   - opacity: 0/1 → Controla transparência
+   - visibility: hidden/visible → Controla interação
+   - transform → Controla posição e movimento
+   
+   🎭 Estados e Transições:
+   - Estado inicial: escondido e acima da posição
+   - Estado hover: visível na posição correta
+   - Transition suaviza a mudança entre estados
+   
+   🔄 Persistência:
+   - .submenu:hover mantém submenu visível
+   - Permite navegar dentro do submenu sem fechar
+   =============================================== */
+
+   .submenu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #0f1729;
+      border-radius: 8px;
+      margin-top: 8px;
+      border: 1px solid #233554;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-10px);
+
+      transition: 
+         opacity 0.3s ease,
+         visibility 0.3s ease,
+         tranform 0.3s ease;
+
+      z-index: 1000;
+   }
+
+   .menu-item:hover .submenu, .submenu:hover {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+   }
+
+   .submenu-item {
+      width: 100%;
+   }
+
+   .submenu-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 16px;
+      color: #8892b0;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border-radius: 6px;
+      margin: 4px;
+   }
+
+   /* Quando hover no item principal OU no próprio submenu */
+        .menu-item:hover .submenu,
+        .submenu:hover {
+            opacity: 1; /* Fica visível */
+            visibility: visible; /* Fica clicável */
+            transform: translateY(0); /* Volta para posição original */
+        }
+        
+        /* ===============================================
+           ITENS DO SUBMENU
+           =============================================== */
+        
+        .submenu-item {
+            width: 100%; /* Ocupa toda a largura */
+        }
+        
+        .submenu-link {
+            display: flex; /* Layout flexível */
+            align-items: center; /* Centraliza verticalmente */
+            gap: 12px; /* Espaço entre ícone e texto */
+            padding: 10px 16px; /* Espaçamento interno menor que o menu principal */
+            color: #8892b0; /* Cor inicial mais suave */
+            cursor: pointer; /* Cursor de mão */
+            transition: all 0.3s ease; /* Animação suave */
+            border-radius: 6px; /* Bordas menos arredondadas */
+            margin: 4px; /* Margem pequena ao redor */
+        }
+        
+        /* Ícone do submenu */
+        .submenu-link i {
+            font-size: 16px; /* Ícone menor que o menu principal */
+            color: #64ffda; /* Cor ciano */
+            opacity: 0.7; /* Transparência inicial */
+            transition: all 0.3s ease; /* Animação suave */
+        }
+        
+        /* Texto do submenu */
+        .submenu-text {
+            font-weight: 400; /* Peso normal */
+            font-size: 13px; /* Fonte menor que o menu principal */
+        }
+        
+        
