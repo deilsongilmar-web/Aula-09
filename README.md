@@ -47,3 +47,7 @@ Se possível, adicione uma imagem ou GIF do projeto em funcionamento. Isso melho
 
 git clone [https://github.com/deilsongilmar-web/](https://github.com/deilsongilmar-web/)[nome-do-repositorio].git
 
+
+npm install 
+# ou
+yarn install
