@@ -45,3 +45,5 @@ Se possível, adicione uma imagem ou GIF do projeto em funcionamento. Isso melho
 ```markdown
 ![Screenshot do Website]([Link para a imagem ou GIF do projeto])
 
+git clone [https://github.com/deilsongilmar-web/](https://github.com/deilsongilmar-web/)[nome-do-repositorio].git
+
