@@ -4,11 +4,11 @@
 
 > Uma descrição concisa e atraente do seu projeto web. (Ex: "Website pessoal/portfólio, desenvolvido para exibir meus projetos e habilidades como desenvolvedor.")
 
-## 🚀 Status do Projeto
+#🚀 Status do Projeto
 
 [![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)]([Link do Deploy/Site Online])
 [![Licença](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-## ✨ Sobre o Projeto
+# ✨ Sobre o Projeto
 
 Esta seção deve detalhar o **objetivo** e a **finalidade** do projeto.
 
