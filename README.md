@@ -1,4 +1,4 @@
-# [ Projeto de Portfólio Profissional]
+# Projeto de Portfólio Profissional
 
 ![Image](https://github.com/user-attachments/assets/44bd5afd-600f-4105-af3b-0c89cde37582)
 
@@ -12,14 +12,16 @@
 
 Esta seção deve detalhar o **objetivo** e a **finalidade** do projeto.
 
-* **O que é?**
-    [Descreva brevemente o que o projeto faz. Ex: Este é meu portfólio oficial, construído do zero para demonstrar minhas competências em Front-end.]
-* **Qual é o problema que ele resolve/objetivo?**
-    [Explique o propósito principal. Ex: Servir como um ponto de contato central e uma vitrine visual para meus projetos de desenvolvimento web.]
-* **Funcionalidades Principais:**
-    * [Ex: Navegação responsiva para desktop e mobile.]
-    * [Ex: Seção de Projetos com links diretos para os repositórios.]
-    * [Ex: Formulário de contato funcional.]
+* ** Este é meu portfólio oficial, construído para demonstrar um pouco do meu trabalho e minhas competências em Front-end.
+* **Objetivo?**
+
+     Opropósito principal:
+É Servir como um ponto de contato central e uma vitrine visual para meus projetos de desenvolvimento web e desenvolvimento em sistemas fotovoltaicos.
+* **Funcionalidades Principais**
+
+    *  Navegação responsiva para desktop e mobile.
+    *  Seção de Projetos com links diretos para os repositórios.
+    *  Formulário de contato funcional.
 
 ## 💻 Tecnologias Utilizadas
 
@@ -44,10 +46,9 @@ Você pode acessar a versão online do projeto através do link:
 
 Se possível, adicione uma imagem ou GIF do projeto em funcionamento. Isso melhora muito a visualização!
 
-```markdown
-![Screenshot do Website]([Link para a imagem ou GIF do projeto])
+```markdown
 
-git clone [https://github.com/deilsongilmar-web/](https://github.com/deilsongilmar-web/)[nome-do-repositorio].git
+git clone [https://github.com/deilsongilmar-web/](https://github.com/deilsongilmar-web/).
 
 
 npm install 
