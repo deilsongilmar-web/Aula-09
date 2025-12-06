@@ -8,16 +8,19 @@
 
 [![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)]([Link do Deploy/Site Online])
 [![Licença](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+
 # ✨ Sobre o Projeto
 
 Esta seção deve detalhar o **objetivo** e a **finalidade** do projeto.
 
-* ** Este é meu portfólio oficial, construído para demonstrar um pouco do meu trabalho e minhas competências em Front-end.
-* **Objetivo?**
+*  Este é meu portfólio oficial, construído para demonstrar um pouco do meu trabalho e minhas competências em Front-end.
+
 
      Opropósito principal:
 É Servir como um ponto de contato central e uma vitrine visual para meus projetos de desenvolvimento web e desenvolvimento em sistemas fotovoltaicos.
-* **Funcionalidades Principais**
+
+**Funcionalidades Principais**
 
     *  Navegação responsiva para desktop e mobile.
     *  Seção de Projetos com links diretos para os repositórios.
