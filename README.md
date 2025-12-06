@@ -4,7 +4,7 @@
 
 > Uma descrição concisa e atraente do seu projeto web. (Ex: "Website pessoal/portfólio, desenvolvido para exibir meus projetos e habilidades como desenvolvedor.")
 
-#🚀 Status do Projeto
+# 🚀 Status do Projeto
 
 [![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)]([ https://deilsongilmar-web.github.io/Aula-09/])
 [![Licença](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
