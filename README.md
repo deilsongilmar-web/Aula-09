@@ -43,7 +43,7 @@ Liste as principais linguagens, frameworks e ferramentas que você utilizou.
 
 Você pode acessar a versão online do projeto através do link:
 
-[Link do Site Online/Deploy]
+https://deilsongilmar-web.github.io/Aula-09/
 
 ### 🖼️ Preview (Opcional)
 
@@ -51,12 +51,7 @@ Se possível, adicione uma imagem ou GIF do projeto em funcionamento. Isso melho
 
 ```markdown
 
-git clone [https://github.com/deilsongilmar-web/](https://github.com/deilsongilmar-web/).
-
-
-npm install 
-# ou
-yarn install
+git clone [https://github.com/deilsongilmar-web/](https://github.com/deilsongilmar-web/).
 
 
 ## 👨‍💻 Contato
