@@ -6,7 +6,7 @@
 
 # 🚀 Status do Projeto
 
-[![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)]([ https://deilsongilmar-web.github.io/Aula-09/])
+![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)]([ https://deilsongilmar-web.github.io/Aula-09/
 [![Licença](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 
