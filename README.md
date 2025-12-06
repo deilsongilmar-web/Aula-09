@@ -1,5 +1,7 @@
 # [ Projeto de Portfólio Profissional]
 
+![Image](https://github.com/user-attachments/assets/44bd5afd-600f-4105-af3b-0c89cde37582)
+
 > Uma descrição concisa e atraente do seu projeto web. (Ex: "Website pessoal/portfólio, desenvolvido para exibir meus projetos e habilidades como desenvolvedor.")
 
 ## 🚀 Status do Projeto
@@ -63,5 +65,6 @@ Deilson Gilmar - Desenvolvedor Web & Serviços Elétricos/Solares.
 * **E-mail:** [deilsongilmar@gmail.com](deilsongilmar@gmail.com)
 
 ---
+
 
 
