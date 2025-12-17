@@ -49,9 +49,11 @@ https://deilsongilmar-web.github.io/Aula-09/
 
 Se possível, adicione uma imagem ou GIF do projeto em funcionamento. Isso melhora muito a visualização!
 
-```markdown
+```markdown
 
-git clone [https://github.com/deilsongilmar-web/](https://github.com/deilsongilmar-web/).
+
+git clone [https://github.com/deilsongilmar-web/](https://github.com/deilsongilmar-web/).
+
 
 
 ## 👨‍💻 Contato
@@ -60,10 +62,11 @@ Deilson Gilmar - Desenvolvedor Web & Serviços Elétricos/Solares.
 
 * **GitHub:** [https://github.com/DeilsonGilmar](https://github.com/DeilsonGilmar)
 * **Instagram:** [@DL_MENDES_SERVICOS](@DL_MENDES_SERVICOS)
-* **Telefone:** [85) 98561-7285](8598561-7285)
+* **Telefone:** [85 98561-7285]
 * **E-mail:** [deilsongilmar@gmail.com](deilsongilmar@gmail.com)
 
 ---
+
 
 
 
