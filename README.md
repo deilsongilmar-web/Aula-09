@@ -62,14 +62,11 @@ Deilson Gilmar - Desenvolvedor Web & Serviços Elétricos/Energia Solar.
 
 
 * **Meu LinkedIn:** [www.linkedin.com/in/deilson-mendes](www.linkedin.com/in/deilson-mendes)
-
 * **GitHub:** [https://github.com/DeilsonGilmar](https://github.com/DeilsonGilmar)
-
 * **E-mail:** [deilsongilmar@gmail.com](deilsongilmar@gmail.com)
-
 * **Instagram:** [@DL_MENDES_SERVICOS](@DL_MENDES_SERVICOS)
-
 * **Telefone:** [85 98561-7285](85 985617285)
+
 
 
 
